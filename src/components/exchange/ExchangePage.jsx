@@ -14,11 +14,11 @@ function ExchangePage({ getRates, updateBalance, rates, balance }) {
   const [toValue, setToValue] = useState(0);
 
   useEffect(() => {
-    // let ratesInterval = null;
-    // ratesInterval = setInterval(getRates, 10000);
+    let ratesInterval = null;
     getRates();
+    ratesInterval = setInterval(getRates, 10000);
     return () => {
-      // clearInterval(ratesInterval);
+      clearInterval(ratesInterval);
     };
   }, [getRates]);
 
