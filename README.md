@@ -35,7 +35,7 @@ It correctly bundles React in production mode and optimizes the build for the be
   
   - User inputs are validated to contain only numbers with two digits after the dot.
   
-  - Exchange rate between active pockets are displayed.
+  - Exchange rate between active pockets is displayed.
   
   - Active pocket balances are displayed.
   
