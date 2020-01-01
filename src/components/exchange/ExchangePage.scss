@@ -1,0 +1,56 @@
+.exchange-page {
+  width: 80%;
+  margin: 10px auto;
+
+  h2 {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    will-change: transform;
+    top: 0px;
+    left: 0px;
+    transform: translate3d(177px, 41px, 0px);
+  }
+  .dropdown-menu.show {
+    background: red;
+  }
+}
+
+.currency-balance {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  text-align: left;
+  color: gray;
+  font-size: 12px;
+}
+
+.currency-balance:hover {
+  cursor: pointer;
+}
+
+.currency-balance.error-balance {
+  color: red;
+}
+
+.exchage-component {
+  .seperator {
+    padding: 0px 0px 10px;
+    width: initial;
+    img:hover {
+      cursor: pointer;
+    }
+  }
+  .exchange-form {
+    width: 370px;
+  }
+  .currency-ratio-container {
+    font-size: 12px;
+    color: gray;
+    font-weight: bold;
+  }
+}

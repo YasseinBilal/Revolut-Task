@@ -1,0 +1,13 @@
+.header {
+  height: 100px;
+  background: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+
+  img {
+    height: 95px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-95px);
+  }
+}
